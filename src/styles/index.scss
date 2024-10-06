@@ -1,0 +1,14 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #9d67e4;
+
+  body {
+    font-family: "Red Hat Display", sans-serif;
+    color: #465d99;
+  }
+}

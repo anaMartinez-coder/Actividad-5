@@ -1,0 +1,29 @@
+/* OrderSummary.module.scss */
+$order-summary-bg: rgb(226, 223, 230);
+$btn-primary-bg: #4CAF50;
+$btn-secondary-bg: #f44336;
+
+.order-summary {
+  background-color: $order-summary-bg;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(161, 55, 55, 0.1);
+}
+
+.btn-primary {
+  background-color: $btn-primary-bg;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: $btn-secondary-bg;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
